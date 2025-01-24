@@ -3,7 +3,6 @@ const apiUrl = 'https://api.openweathermap.org/data/2.5/weather?units=metric&q='
 const apiFive = 'https://api.openweathermap.org/data/2.5/forecast?units=metric&q='
 const searchCity = document.getElementById('search-input');
 const searchButton = document.querySelector('.btn-primary');
-const fiveDaysContainer = document.querySelector('.container2');
 
 async function getWeather(city) {
     const response = await fetch(apiUrl + city + `&appid=${apiKey}`);

@@ -20,3 +20,4 @@ async function getWeather(city) {
 searchButton.addEventListener('click', () => {
     getWeather(searchCity.value.trim());
 })
+
